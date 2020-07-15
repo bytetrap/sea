@@ -1,10 +1,11 @@
 {
-    "name": "laravel/laravel",
+    "name": "kuriv/sea",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Start here.",
     "keywords": [
         "framework",
-        "laravel"
+        "laravel",
+        "sea"
     ],
     "license": "MIT",
     "require": {
