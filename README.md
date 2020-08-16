@@ -18,27 +18,40 @@
 git clone https://github.com/bytetrap/sea.git
 ```
 
+To do this, please install dependencies with `Composer` first.
+
+```
+composer install
+```
+
+Copy the `.env.example` file and rename it to `.env`, configure database connection in `.env` file, then generate the new key to `.env` file.
+
+```
+php artisan key:generate --ansi
+```
+
+Finally, run the following command to publish resources, and complete the installation.
+
+```
+php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
+php artisan admin:install
+```
+
 **Composer**
 
 ```
 composer create-project bytetrap/sea
 ```
 
-Configure database connection in `.env` file, then execute the following command.
+Then configure database connection in `.env` file, and run the following command.
 
 ```
 php artisan admin:install
 ```
 
+## How to use it?
 
-
-
-
-
-
-
-
-
+After starting the service, open [http://localhost/admin/](http://localhost/admin/) in the browser, and log in with the username `admin` and password `admin` .
 
 ## License
 
