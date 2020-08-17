@@ -24,7 +24,7 @@ To do this, please install dependencies with `Composer` first.
 composer install
 ```
 
-Next, copy the `.env.example` file and rename it to `.env`, configure database connection in `.env` file, then generate the new key to `.env` file. Finally, run the following command to publish resources, and complete the installation.
+Then copy the `.env.example` file and rename it to `.env`, configure database connection in `.env` file, and run the following command.
 
 ```
 php artisan key:generate --ansi
