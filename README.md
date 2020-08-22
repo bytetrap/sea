@@ -1,7 +1,7 @@
 # sea
 
 <a href="https://github.com/bytetrap/sea">
-    <img src="sea.png" width="80" height="80" align="right">
+    <img src="sea.svg" width="80" height="80" align="right">
 </a>
 
 > Start here.
@@ -56,7 +56,7 @@ After starting the service, open [http://localhost/admin/](http://localhost/admi
 
 [build-image]: https://img.shields.io/badge/build-passing-brightgreen   "build"
 [build-url]: https://github.com/bytetrap/sea "build"
-[version-image]: https://img.shields.io/badge/version-v1.0.4-blue   "version"
+[version-image]: https://img.shields.io/badge/version-v1.0.5-blue   "version"
 [version-url]: https://github.com/bytetrap/sea   "version"
 [license-image]: https://img.shields.io/badge/license-MIT-green "license"
 [license-url]: https://opensource.org/licenses/MIT  "license"
